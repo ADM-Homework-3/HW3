@@ -130,3 +130,6 @@ dmypy.json
 
 # Pycharm
 .idea/
+
+# Don't include all tsv files
+archive/

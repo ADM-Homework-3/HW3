@@ -33,7 +33,6 @@ def remove_html_tags(text):
 
 def parse_html_in_folder(path, destiny='final_tsv_files'):
     for html_file in os.listdir(path):
-        print(html_file)
         with open(path + '/' + html_file, encoding='utf8') as infile:
             soup = BeautifulSoup(infile, features="lxml")
             # Plot can be hidden (if it is hidden we have to take the complete plot)
