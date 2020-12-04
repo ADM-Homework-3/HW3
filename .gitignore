@@ -133,3 +133,4 @@ dmypy.json
 
 # Don't include all tsv files
 archive/
+dask-worker-space/
